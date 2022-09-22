@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #121417;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container1 {
+  position: relative;
+  top: 20%;
+  left: 35%;
+  height: 350px;
+  width: 400px;
+  z-index: 1;
+}
+
+.container1 .component {
+  background-color: #252d37;
+  padding: 25px 10px 25px 30px;
+  border: 20px;
+  border-radius: 1.5rem;
+  outline: none;
+}
+
+.container1 .component .star {
+  padding: 10px 1px;
+  text-align: left;
+}
+
+.container1 .component .star .icon {
+  padding: 10px 15px;
+  color: #fb7413;
+  background: #303a45;
+  border-radius: 50%;
+  width: 48px;
+  height: 40px;
+}
+
+.container1 .component .title {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+  text-align: left;
+}
+
+.container1 .component .text {
+  color: #959eac;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+}
+
+.container1 .component .rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container1 .component .rate .rate-div {
+  margin: 30px 8px 40px;
+  color: #7c8798;
+  padding: 15px 20px 15px 20px;
+  border-radius: 50%;
+  font-weight: 700;
+  background-color: #303a45;
+}
+
+.container1 .component .button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container1 .component .button .btn {
+  background-color: #fb7413;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  padding: 10px 7.9rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: flexbox;
+}
+
+.container1 .component .button .btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.container2 {
+  position: relative;
+  bottom: 30%;
+  left: 35%;
+  height: 400px;
+  width: 400px;
+}
+
+.container2 .appreciation {
+  background-color: #252d37;
+  padding: 25px 20px 25px 20px;
+  border: 20px;
+  border-radius: 1.5rem;
+  outline: none;
+}
+
+.container2 .appreciation .image {
+  margin-bottom: 30px;
+}
+
+.container2 .appreciation #select {
+  color: #fb7413;
+  font-weight: 400;
+  background-color: #303a45;
+  padding: 7.5px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-bottom: 450px;
+}
+
+.container2 .appreciation .appreciate {
+  margin-top: 45px;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+.container2 .appreciation p {
+  color: #959eac;
+  font-weight: 400;
+}
+
+@media (max-width: 762px) {
+  .container1 {
+    position: relative;
+    top: 22%;
+    left: 23%;
+    height: 500px;
+    width: 400px;
+  }
+  .container2 {
+    position: relative;
+    bottom: 46%;
+    left: 23%;
+  }
+}
+
+@media (max-width: 530px) {
+  .container1 {
+    position: relative;
+    top: 22%;
+    left: 13%;
+    height: 500px;
+    width: 400px;
+  }
+  .container2 {
+    position: relative;
+    bottom: 48%;
+    left: 13%;
+  }
+}
+
+@media (max-width: 465px) {
+  .container1 {
+    position: relative;
+    top: 22%;
+    left: 6%;
+    height: 500px;
+    width: 400px;
+  }
+  .container2 {
+    position: relative;
+    bottom: 50%;
+    left: 6%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
